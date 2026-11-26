@@ -1,0 +1,28 @@
+>> exp2
+Enter the function: x^2 + y^2
+Enter lower limit: -2
+Enter upper limit: 2
+Hessian matrix is
+[2, 0]
+[0, 2]
+
+Function is convex
+>> exp2
+Enter the function: -x^2 - y^2
+Enter lower limit: -2
+Enter upper limit: 2
+Hessian matrix is
+[-2,  0]
+[ 0, -2]
+
+Function is concave
+>> exp2
+Enter the function: x^2 - y^2
+Enter lower limit: -2
+Enter upper limit: 2
+Hessian matrix is
+[2,  0]
+[0, -2]
+
+Neither convex nor concave
+>>
