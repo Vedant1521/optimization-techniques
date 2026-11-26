@@ -1,10 +1,6 @@
 # optimization-techniques
 
 **Course:** MC405 : Optimization Techniques (Lab File)  
-**Institution:** Delhi Technological University — Department of Applied Mathematics  
-**Semester:** VII (4th Year) | **Session:** 2026–27  
-**Submitted By:** Vedant Gupta (`23/MC/171`)  
-**Submitted To:** Ms. Anshika Sharma, Ms. Brahmvidya  
 
 ## Lab Index
 
