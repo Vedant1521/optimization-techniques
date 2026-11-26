@@ -1,0 +1,24 @@
+c (column): [1;0]
+alpha: 0
+d (column): [1;1]
+beta: 1
+A: [1 1;1 2]
+b (column): [1;1]
+x =
+     1
+     0
+
+Optimal ratio = 0.5000
+
+c (column): [2;1]
+alpha: 1
+d (column): [1;3]
+beta: 2
+A: [1 1;1 2]
+b (column): [4;6]
+x =
+     4
+     0
+
+Optimal ratio = 1.5000
+>>
