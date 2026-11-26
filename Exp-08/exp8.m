@@ -11,10 +11,17 @@ m = size(A,1);
 % max (c'x+alpha)/(d'x+beta) s.t. Ax <= b, x >= 0, d'x+beta > 0
 % Charnes-Cooper: y = t*x, t = 1/(d'x+beta)
 % max c'y + alpha*t s.t. Ay - b*t <= 0, d'y + beta*t = 1, y,t >= 0
-[sol,val,flag] = linprog(-[c(:);alpha], [A -b(:)], zeros(m,1), ...
-                         [d(:)' beta], 1, zeros(n+1,1), []);
+if exist('OCTAVE_VERSION', 'builtin')
+    [sol,val] = linprog(-[c(:);alpha], [A -b(:)], zeros(m,1), ...
+                        [d(:)' beta], 1, zeros(n+1,1), []);
+    ok = ~isempty(sol) && all(isfinite(sol)) && isfinite(val);
+else
+    [sol,val,flag] = linprog(-[c(:);alpha], [A -b(:)], zeros(m,1), ...
+                             [d(:)' beta], 1, zeros(n+1,1), []);
+    ok = (flag == 1);
+end
 
-if flag ~= 1 || sol(end) < 1e-9
+if ~ok || sol(end) < 1e-9
     disp('No finite optimum');
     return;
 end
