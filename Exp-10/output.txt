@@ -1,0 +1,19 @@
+>> exp10
+Enter objective function: x^2 + y^2
+Enter constraint function (g <= 0): 4 - x - y
+Enter initial feasible point: [2 3]
+Optimal solution
+    2.0000
+    2.0000
+
+Minimum value = 8.0000
+>> exp10
+Enter objective function: (x-3)^2 + (y-2)^2
+Enter constraint function (g <= 0): x + y - 2
+Enter initial feasible point: [0 0]
+Optimal solution
+    1.5000
+    0.5000
+
+Minimum value = 4.5000
+>>
