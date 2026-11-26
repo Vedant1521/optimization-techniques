@@ -1,0 +1,13 @@
+>> exp1
+Enter function: x^3 + 5*x^2 - 2*x - 6
+Enter interval [a b]: [1 2]
+Function is convex.
+>> exp1
+Enter function: -x^2-4*x
+Enter interval [a b]: [-1 90]
+Function is not convex.
+>> exp1
+Enter function: x^4 - x^2
+Enter interval [a b]: [-1 1]
+Function is not convex.
+>>
