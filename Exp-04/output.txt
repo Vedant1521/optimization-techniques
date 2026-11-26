@@ -1,0 +1,19 @@
+>>>> exp4
+
+Enter objective function: x^2 + 2*x - y^2 - 3*x*y
+Enter constraint: 2*x + 4*y - 8
+Optimal solution is
+[4/9, 16/9]
+
+Optimal value is
+-40/9
+
+>>>> exp4
+
+Enter objective function: 7*x^2 + 4*y^2 - 3*x*y
+Enter constraint: 4*y + 3*x - 5
+Optimal solution is
+[45/92, 325/368]
+
+Optimal value is
+2575/736
