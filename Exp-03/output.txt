@@ -1,0 +1,27 @@
+Enter objective function: x^2 + y^2
+Enter inequality constraint: x+y-4
+Enter lower limit: -2
+Enter upper limit: 2
+Objective Hessian:
+[2, 0]
+[0, 2]
+
+Constraint Hessian:
+[0, 0]
+[0, 0]
+
+It is a convex programming problem
+
+Enter objective function: x^2 + 2*x - y^2 - 3*x*y
+Enter inequality constraint: x-y+5
+Enter lower limit: 0
+Enter upper limit: 10
+Objective Hessian:
+[ 2, -3]
+[-3, -2]
+
+Constraint Hessian:
+[0, 0]
+[0, 0]
+
+It is not a convex programming problem
