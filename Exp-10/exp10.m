@@ -1,3 +1,4 @@
+function exp10()
 syms x y
 f = input('Enter objective function: ');
 g = input('Enter constraint function (g <= 0): ');
@@ -22,8 +23,9 @@ end
 disp('Optimal solution')
 disp(z')
 fprintf('Minimum value = %.4f\n', ff(z(1),z(2)))
+end
 
-% local function (must be placed at the end of the script file)
+% local function
 function v = barrier_fun(w,ff,gf,mu)
     gv = gf(w(1),w(2));
     if gv >= 0
